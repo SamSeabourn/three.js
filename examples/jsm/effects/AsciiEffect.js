@@ -131,7 +131,7 @@ class AsciiEffect {
 
 		}
 
-		const oCtx = oCanvas.getContext( '2d', { willReadFrequently: true } );
+		const oCtx = oCanvas.getContext( '2d' );
 		if ( ! oCtx.getImageData ) {
 
 			return;
